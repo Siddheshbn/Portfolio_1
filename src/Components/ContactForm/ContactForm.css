@@ -1,0 +1,62 @@
+.c-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.c-heading{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+}
+
+.c-heading span:nth-of-type(1){
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--black);
+    position: relative;
+    left: 5rem;
+}
+
+.c-heading span:nth-of-type(2){
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--orange);
+    position: relative;
+    left: 5rem;
+}
+
+.contact_form{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex: 1;
+}
+
+.contact_form>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.contact_form .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea{
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}

@@ -1,0 +1,13 @@
+If we write like this './CSS_file.css' i.e. a single dot then it means our file is present in the same directory
+
+If you want to change the position of an element then first make its position as 'relative' and then add properties like top:" ", left:" ",bottom:" ", right:" " .
+
+If you want to make such a contact from by filling which it will send a mail to your mail directly then u can use the library called 'emailjs'
+
+There are total three ways of putting a script in the react component
+    1.You can make a script and import it
+    2.You can directle add the script='_path_' attribute to the tag and in the '_path_' add its path
+    3.You can add script tag in the ending after the last div tag
+
+Add React projects to Github Pages , Read this:-
+https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/
